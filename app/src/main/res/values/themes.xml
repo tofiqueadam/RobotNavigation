@@ -1,0 +1,66 @@
+<resources>
+    <!-- Base theme (no ActionBar — full screen kiosk style) -->
+    <style name="Theme.NavLearner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/accent_blue</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+    </style>
+
+    <!-- Navigation button base style -->
+    <style name="NavButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">3</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="NavButton.Blue" parent="NavButton">
+        <item name="backgroundTint">@color/btn_blue</item>
+    </style>
+
+    <style name="NavButton.Green" parent="NavButton">
+        <item name="backgroundTint">@color/btn_green</item>
+    </style>
+
+    <style name="NavButton.Purple" parent="NavButton">
+        <item name="backgroundTint">@color/btn_purple</item>
+    </style>
+
+    <style name="NavButton.Gray" parent="NavButton">
+        <item name="backgroundTint">@color/btn_gray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Settings screen styles -->
+    <style name="SectionHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/accent_blue</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="FieldLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="FieldInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:backgroundTint">@color/divider</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

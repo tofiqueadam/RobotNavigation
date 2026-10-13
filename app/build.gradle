@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.robot.navlearner'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.robot.navlearner"
+        minSdk 24                      // Android 7.0 — matches the robot tablet
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        // Required for lambda syntax & java.util.function on Android 7
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    // Java 8 desugaring — needed for Android 7 (API 24) with modern Java APIs
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
+
+    // OkHttp — WebSocket client to talk to the robot's rosbridge server
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+
+    // AndroidX & Material
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    testImplementation 'junit:junit:4.13.2'
+}

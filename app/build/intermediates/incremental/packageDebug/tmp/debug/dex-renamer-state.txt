@@ -1,0 +1,13 @@
+#Tue Oct 13 09:29:48 EAT 2026
+base.0=/home/dell500/robot/sdk_movement/NavLearner/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/dell500/robot/sdk_movement/NavLearner/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/dell500/robot/sdk_movement/NavLearner/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.3=/home/dell500/robot/sdk_movement/NavLearner/app/build/intermediates/desugar_lib_dex/debug/classes1000.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=13/classes.dex
+path.3=classes1000.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

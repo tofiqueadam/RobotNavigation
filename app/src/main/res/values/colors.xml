@@ -1,0 +1,29 @@
+<resources>
+    <!-- ── Background ──────────────────────────────────────────────────── -->
+    <color name="bg_dark">#1A1D2E</color>
+    <color name="bg_card">#252840</color>
+    <color name="divider">#3A3D55</color>
+
+    <!-- ── Text ────────────────────────────────────────────────────────── -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B3CC</color>
+    <color name="text_hint">#6B6F8A</color>
+
+    <!-- ── Status card backgrounds ─────────────────────────────────────── -->
+    <color name="status_idle">#252840</color>
+    <color name="status_navigating">#1A3A5C</color>
+    <color name="status_error">#5C1A1A</color>
+
+    <!-- ── Accent colours ──────────────────────────────────────────────── -->
+    <color name="accent_blue">#4A90E2</color>
+    <color name="accent_green">#27AE60</color>
+    <color name="accent_purple">#8E44AD</color>
+    <color name="accent_gray">#4A4E6A</color>
+    <color name="accent_yellow">#F39C12</color>
+
+    <!-- ── Button backgrounds ──────────────────────────────────────────── -->
+    <color name="btn_blue">#2D6CB5</color>
+    <color name="btn_green">#1E8449</color>
+    <color name="btn_purple">#6C3483</color>
+    <color name="btn_gray">#3A3D55</color>
+</resources>

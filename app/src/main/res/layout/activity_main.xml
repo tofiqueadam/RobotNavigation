@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  activity_main.xml — Navigation Control Panel
+  Landscape layout for the robot's tablet screen.
+  Left panel: status card. Right panel: 3 navigation buttons + settings.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/bg_dark"
+    android:padding="16dp">
+
+    <!-- ── LEFT: Status Panel ─────────────────────────────────────── -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- App title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Robot Navigation"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+
+        <!-- Status card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/status_idle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Main status text -->
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ready"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <!-- Detail / sub-status text -->
+                <TextView
+                    android:id="@+id/tv_status_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text=""
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp"
+                    android:gravity="center"/>
+
+                <!-- Progress indicator (visible while navigating) -->
+                <ProgressBar
+                    android:id="@+id/progress_indicator"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="12dp"
+                    android:indeterminate="true"
+                    android:progressTint="@color/accent_blue"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Robot URL display (for debugging) -->
+        <TextView
+            android:id="@+id/tv_robot_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="ws://192.168.20.22:9090"
+            android:textColor="@color/text_hint"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+
+    <!-- ── Divider ─────────────────────────────────────────────────── -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:background="@color/divider"/>
+
+    <!-- ── RIGHT: Navigation Buttons ─────────────────────────────── -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Mode 1: Go to Point 1 -->
+        <Button
+            android:id="@+id/btn_go_to_point"
+            style="@style/NavButton.Blue"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:text="Go to\nmachines_area"
+            android:textSize="14sp"/>
+
+        <!-- Mode 2: Go & Return -->
+        <Button
+            android:id="@+id/btn_go_and_return"
+            style="@style/NavButton.Green"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:text="Go to waiting_area\n→ Return to home"
+            android:textSize="13sp"/>
+
+        <!-- Mode 3: 3-Point Tour -->
+        <Button
+            android:id="@+id/btn_tour_start"
+            style="@style/NavButton.Purple"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:text="3-Point Tour\nA → B → C → home"
+            android:textSize="12sp"/>
+
+        <!-- Settings button -->
+        <Button
+            android:id="@+id/btn_settings"
+            style="@style/NavButton.Gray"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:text="⚙ Settings / Configure Points"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

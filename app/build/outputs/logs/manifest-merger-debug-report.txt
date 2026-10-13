@@ -1,0 +1,263 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.google.android.material:material:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/50ce35d8d119b20f0bc8feaeacedb49c/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dell500/.gradle/caches/8.13/transforms/879e651184964329b3257e6e5b4925f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/dell500/.gradle/caches/8.13/transforms/ce98ad8db06bb75e907dc37f64dcf05b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/dell500/.gradle/caches/8.13/transforms/4ea03e50433c894746e0c54de60639c3/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/283a7f493ffda9c714532f6d97d38933/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/dell500/.gradle/caches/8.13/transforms/dbabe5256b8c393aaa47c27d7cb9ecba/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/dell500/.gradle/caches/8.13/transforms/92392d8144c01de01accfc2f2fc8df2e/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/e9b717bbdf54b35a302b2e735fde1a39/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/0bf02c7cf8e3401817cc6a40f5f2a47b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/730b66528b5e4135679c2c2238581bf6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/7bc03b9c13eaa0fb929c032eb3aa9639/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/e29872fdca6d5fd58b91aa4c1380ec59/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/7cc405deeb557d200f95d2082f9fea7d/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/e67dd95aab1055d1491a849b4c05c275/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/19f8d9c646f71a562f7743352f33bc19/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/cc90cd85420999a0bf2f0403d8fc297e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/c792db68f1d657ca3f88be7440d1e279/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/6088805da95596c2f35927029aada25c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/b2ec61171e0deb59e04fb56ac5f9e515/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/0ca43c9dd7428917694ca29f9a71bde6/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/9807bfa04591d9e7929304def7bd5d4d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/5ed4bf9bfe7b06fbba682ddf9af50db9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/35e59ff05640d76ac9b00a7ff3d2a2cf/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/dell500/.gradle/caches/8.13/transforms/bbb02dac06b2b72f52d5a5026c34ccfd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/408b53ab23186a3c2402e1ca383b0ae8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/cdf0d75d6d0b296715f76b86d2e097a9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b51b23055cdbd82a10edff20127461ec/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/77063b75d25c1b19d912c717674a27af/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/c0f1c7e80599df891ab52d6c5bfb2a98/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dell500/.gradle/caches/8.13/transforms/c4d74aad23fdb784413455eedd6461eb/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/236baeaabdd46a325467e0f9741fc9b0/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dell500/.gradle/caches/8.13/transforms/1721ec34f1e3d2145c5f6b45cd9a7467/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b06bb94bfb829b80af7969206766cfce/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b4d359322198b9782b5c5755f83bf1b4/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/32fe19cdb403566d9c7033ad49adcccd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/08d857b4652fffa4a1487f2c0a2e9018/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:8:5-37:19
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:8:5-37:19
+MERGED from [com.google.android.material:material:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/50ce35d8d119b20f0bc8feaeacedb49c/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/50ce35d8d119b20f0bc8feaeacedb49c/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dell500/.gradle/caches/8.13/transforms/879e651184964329b3257e6e5b4925f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dell500/.gradle/caches/8.13/transforms/879e651184964329b3257e6e5b4925f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/c0f1c7e80599df891ab52d6c5bfb2a98/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/c0f1c7e80599df891ab52d6c5bfb2a98/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:15:9-48
+	android:usesCleartextTraffic
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:9:9-38
+activity#com.robot.navlearner.MainActivity
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:20:9-29:20
+	android:screenOrientation
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:23:13-50
+	android:windowSoftInputMode
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:24:13-52
+	android:exported
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.robot.navlearner.SettingsActivity
+ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:31:9-35:58
+	android:screenOrientation
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:34:13-50
+	android:windowSoftInputMode
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:35:13-55
+	android:exported
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml:32:13-45
+uses-sdk
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/50ce35d8d119b20f0bc8feaeacedb49c/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/50ce35d8d119b20f0bc8feaeacedb49c/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dell500/.gradle/caches/8.13/transforms/879e651184964329b3257e6e5b4925f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dell500/.gradle/caches/8.13/transforms/879e651184964329b3257e6e5b4925f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/dell500/.gradle/caches/8.13/transforms/ce98ad8db06bb75e907dc37f64dcf05b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/dell500/.gradle/caches/8.13/transforms/ce98ad8db06bb75e907dc37f64dcf05b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/dell500/.gradle/caches/8.13/transforms/4ea03e50433c894746e0c54de60639c3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/dell500/.gradle/caches/8.13/transforms/4ea03e50433c894746e0c54de60639c3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/283a7f493ffda9c714532f6d97d38933/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/283a7f493ffda9c714532f6d97d38933/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/dell500/.gradle/caches/8.13/transforms/dbabe5256b8c393aaa47c27d7cb9ecba/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/dell500/.gradle/caches/8.13/transforms/dbabe5256b8c393aaa47c27d7cb9ecba/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/dell500/.gradle/caches/8.13/transforms/92392d8144c01de01accfc2f2fc8df2e/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/dell500/.gradle/caches/8.13/transforms/92392d8144c01de01accfc2f2fc8df2e/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/e9b717bbdf54b35a302b2e735fde1a39/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/e9b717bbdf54b35a302b2e735fde1a39/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/0bf02c7cf8e3401817cc6a40f5f2a47b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/0bf02c7cf8e3401817cc6a40f5f2a47b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/730b66528b5e4135679c2c2238581bf6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/730b66528b5e4135679c2c2238581bf6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/7bc03b9c13eaa0fb929c032eb3aa9639/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/7bc03b9c13eaa0fb929c032eb3aa9639/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/e29872fdca6d5fd58b91aa4c1380ec59/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/e29872fdca6d5fd58b91aa4c1380ec59/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/7cc405deeb557d200f95d2082f9fea7d/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/7cc405deeb557d200f95d2082f9fea7d/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/e67dd95aab1055d1491a849b4c05c275/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/e67dd95aab1055d1491a849b4c05c275/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/19f8d9c646f71a562f7743352f33bc19/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/19f8d9c646f71a562f7743352f33bc19/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/cc90cd85420999a0bf2f0403d8fc297e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/cc90cd85420999a0bf2f0403d8fc297e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/c792db68f1d657ca3f88be7440d1e279/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/c792db68f1d657ca3f88be7440d1e279/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/6088805da95596c2f35927029aada25c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/6088805da95596c2f35927029aada25c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/b2ec61171e0deb59e04fb56ac5f9e515/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/b2ec61171e0deb59e04fb56ac5f9e515/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/0ca43c9dd7428917694ca29f9a71bde6/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/0ca43c9dd7428917694ca29f9a71bde6/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/9807bfa04591d9e7929304def7bd5d4d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/9807bfa04591d9e7929304def7bd5d4d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/5ed4bf9bfe7b06fbba682ddf9af50db9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/5ed4bf9bfe7b06fbba682ddf9af50db9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/35e59ff05640d76ac9b00a7ff3d2a2cf/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/dell500/.gradle/caches/8.13/transforms/35e59ff05640d76ac9b00a7ff3d2a2cf/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/dell500/.gradle/caches/8.13/transforms/bbb02dac06b2b72f52d5a5026c34ccfd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/dell500/.gradle/caches/8.13/transforms/bbb02dac06b2b72f52d5a5026c34ccfd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/408b53ab23186a3c2402e1ca383b0ae8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/408b53ab23186a3c2402e1ca383b0ae8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/cdf0d75d6d0b296715f76b86d2e097a9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/cdf0d75d6d0b296715f76b86d2e097a9/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b51b23055cdbd82a10edff20127461ec/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b51b23055cdbd82a10edff20127461ec/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/77063b75d25c1b19d912c717674a27af/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/77063b75d25c1b19d912c717674a27af/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/c0f1c7e80599df891ab52d6c5bfb2a98/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/c0f1c7e80599df891ab52d6c5bfb2a98/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dell500/.gradle/caches/8.13/transforms/c4d74aad23fdb784413455eedd6461eb/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dell500/.gradle/caches/8.13/transforms/c4d74aad23fdb784413455eedd6461eb/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/236baeaabdd46a325467e0f9741fc9b0/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/dell500/.gradle/caches/8.13/transforms/236baeaabdd46a325467e0f9741fc9b0/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dell500/.gradle/caches/8.13/transforms/1721ec34f1e3d2145c5f6b45cd9a7467/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dell500/.gradle/caches/8.13/transforms/1721ec34f1e3d2145c5f6b45cd9a7467/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b06bb94bfb829b80af7969206766cfce/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b06bb94bfb829b80af7969206766cfce/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b4d359322198b9782b5c5755f83bf1b4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/b4d359322198b9782b5c5755f83bf1b4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/32fe19cdb403566d9c7033ad49adcccd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/32fe19cdb403566d9c7033ad49adcccd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/08d857b4652fffa4a1487f2c0a2e9018/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/dell500/.gradle/caches/8.13/transforms/08d857b4652fffa4a1487f2c0a2e9018/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/dell500/robot/sdk_movement/NavLearner/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/dell500/.gradle/caches/8.13/transforms/ced94f79ef6dbf44404afe40a87abcb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/dell500/.gradle/caches/8.13/transforms/3457ab7945a75209f3724a2d4daa2ab9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.robot.navlearner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.robot.navlearner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/dell500/.gradle/caches/8.13/transforms/a8a114dde0fa13e634aabc181d23f308/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/dell500/.gradle/caches/8.13/transforms/f8ddc89f1fd1c21204a12ac47ac86a3f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

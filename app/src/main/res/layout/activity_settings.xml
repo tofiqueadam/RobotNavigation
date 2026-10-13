@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  activity_settings.xml — Configure point names and robot connection.
+  Two-column layout: Connection settings (left) | Point names (right).
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="← Back"
+                android:textColor="@color/accent_blue"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Configure Navigation Points"
+                android:textColor="@color/text_primary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save ✓"
+                android:backgroundTint="@color/accent_green"
+                android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <!-- Hint about point names -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠ Point names must exactly match those set in the robot's Deployment Environment app (case-sensitive)"
+            android:textColor="@color/accent_yellow"
+            android:textSize="12sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Two-column layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- ── LEFT: Robot Connection ──────────────────────────── -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingEnd="12dp">
+
+                <TextView
+                    style="@style/SectionHeader"
+                    android:text="Robot Connection"/>
+
+                <TextView style="@style/FieldLabel" android:text="Robot IP Address"/>
+                <EditText
+                    android:id="@+id/et_robot_ip"
+                    style="@style/FieldInput"
+                    android:hint="e.g. 192.168.20.22"
+                    android:inputType="text"/>
+
+                <TextView style="@style/FieldLabel" android:text="WebSocket Port"/>
+                <EditText
+                    android:id="@+id/et_robot_port"
+                    style="@style/FieldInput"
+                    android:hint="e.g. 9090"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="URL: ws://&lt;IP&gt;:&lt;port&gt;\nDefault: ws://192.168.20.22:9090"
+                    android:textColor="@color/text_hint"
+                    android:textSize="11sp"
+                    android:fontFamily="monospace"
+                    android:paddingTop="4dp"/>
+
+                <!-- ── Mode 1 ──────────────────────────────────────── -->
+                <TextView
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="16dp"
+                    android:text="Mode 1 — Go to Single Point"/>
+
+                <TextView style="@style/FieldLabel" android:text="Point 1 Name"/>
+                <EditText
+                    android:id="@+id/et_point1"
+                    style="@style/FieldInput"
+                    android:hint="e.g. machines_area"/>
+
+                <!-- ── Mode 2 ──────────────────────────────────────── -->
+                <TextView
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="16dp"
+                    android:text="Mode 2 — Go &amp; Return"/>
+
+                <TextView style="@style/FieldLabel" android:text="Point 2 Name (go-to)"/>
+                <EditText
+                    android:id="@+id/et_point2"
+                    style="@style/FieldInput"
+                    android:hint="e.g. waiting_area"/>
+
+            </LinearLayout>
+
+            <!-- ── RIGHT: Tour & Home ──────────────────────────────── -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+
+                <!-- ── Mode 3 ──────────────────────────────────────── -->
+                <TextView
+                    style="@style/SectionHeader"
+                    android:text="Mode 3 — 3-Point Tour"/>
+
+                <TextView style="@style/FieldLabel" android:text="Tour Point A (1st stop)"/>
+                <EditText
+                    android:id="@+id/et_tour_a"
+                    style="@style/FieldInput"
+                    android:hint="e.g. machines_area"/>
+
+                <TextView style="@style/FieldLabel" android:text="Tour Point B (2nd stop)"/>
+                <EditText
+                    android:id="@+id/et_tour_b"
+                    style="@style/FieldInput"
+                    android:hint="e.g. waiting_area"/>
+
+                <TextView style="@style/FieldLabel" android:text="Tour Point C (3rd stop)"/>
+                <EditText
+                    android:id="@+id/et_tour_c"
+                    style="@style/FieldInput"
+                    android:hint="e.g. back_office"/>
+
+                <!-- ── Home (used by Mode 2 and Mode 3) ──────────── -->
+                <TextView
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="16dp"
+                    android:text="Home Point (used by Mode 2 &amp; 3)"/>
+
+                <TextView style="@style/FieldLabel" android:text="Home Point Name"/>
+                <EditText
+                    android:id="@+id/et_home"
+                    style="@style/FieldInput"
+                    android:hint="e.g. home"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'home' is typically the robot's charging dock or reception position"
+                    android:textColor="@color/text_hint"
+                    android:textSize="11sp"
+                    android:paddingTop="4dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
